@@ -12,6 +12,8 @@ struct WeatherDayView: View, Hashable {
     var dayOfWeek: String
     var imageName: String
     var temp: Int
+
+    
     
     var body: some View {
         VStack{
@@ -30,18 +32,18 @@ struct WeatherDayView: View, Hashable {
         }
     }
 }
-            var day1 =        WeatherDayView(dayOfWeek: "Useless",
+            var day1 =        WeatherDayView(dayOfWeek: "MON",
                                    imageName: "cloud.bolt.fill",
                                    temp: 55)
-            var day2 =        WeatherDayView(dayOfWeek: "Idiot",
+            var day2 =        WeatherDayView(dayOfWeek: "TUE",
                                    imageName: "cloud.fog.fill",
                                    temp: 74)
-            var day3 =        WeatherDayView(dayOfWeek: "Failure",
+            var day3 =        WeatherDayView(dayOfWeek: "WED",
                                    imageName: "cloud.snow.fill",
                                    temp: 65)
-            var day4 =        WeatherDayView(dayOfWeek: "Nothing",
+            var day4 =        WeatherDayView(dayOfWeek: "THU",
                                    imageName: "cloud.rainbow.half",
                                    temp: 40)
-            var day5 =        WeatherDayView(dayOfWeek: "Regrets",
+            var day5 =        WeatherDayView(dayOfWeek: "FRI",
                                    imageName: "cloud.sun.bolt.fill",
                                    temp: 70)

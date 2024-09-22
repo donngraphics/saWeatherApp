@@ -13,6 +13,11 @@
 		9350567B2C82A2D40094D077 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9350567A2C82A2D40094D077 /* Preview Assets.xcassets */; };
 		935056822C8A80770094D077 /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935056812C8A80770094D077 /* WeatherButton.swift */; };
 		935056A02C9BBAC10094D077 /* fiveDayLook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9350569F2C9BBAC10094D077 /* fiveDayLook.swift */; };
+		935056C62C9E6E960094D077 /* DiffCitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935056C52C9E6E960094D077 /* DiffCitiesView.swift */; };
+		935056C82C9E6F970094D077 /* BackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935056C72C9E6F970094D077 /* BackgroundColor.swift */; };
+		935056EA2C9FB5640094D077 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935056E92C9FB5640094D077 /* WeatherService.swift */; };
+		935056EC2C9FB58B0094D077 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935056EB2C9FB58B0094D077 /* WeatherViewModel.swift */; };
+		935056EE2C9FB5AD0094D077 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935056ED2C9FB5AD0094D077 /* WeatherModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +28,11 @@
 		9350567A2C82A2D40094D077 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		935056812C8A80770094D077 /* WeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
 		9350569F2C9BBAC10094D077 /* fiveDayLook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fiveDayLook.swift; sourceTree = "<group>"; };
+		935056C52C9E6E960094D077 /* DiffCitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffCitiesView.swift; sourceTree = "<group>"; };
+		935056C72C9E6F970094D077 /* BackgroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundColor.swift; sourceTree = "<group>"; };
+		935056E92C9FB5640094D077 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		935056EB2C9FB58B0094D077 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		935056ED2C9FB5AD0094D077 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,11 @@
 			children = (
 				935056732C82A2D00094D077 /* SwiftUI_WeatherApp.swift */,
 				935056752C82A2D00094D077 /* ContentView.swift */,
+				935056E92C9FB5640094D077 /* WeatherService.swift */,
+				935056EB2C9FB58B0094D077 /* WeatherViewModel.swift */,
+				935056ED2C9FB5AD0094D077 /* WeatherModel.swift */,
+				935056C72C9E6F970094D077 /* BackgroundColor.swift */,
+				935056C52C9E6E960094D077 /* DiffCitiesView.swift */,
 				9350569F2C9BBAC10094D077 /* fiveDayLook.swift */,
 				935056772C82A2D40094D077 /* Assets.xcassets */,
 				935056792C82A2D40094D077 /* Preview Content */,
@@ -144,9 +159,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				935056762C82A2D00094D077 /* ContentView.swift in Sources */,
+				935056C82C9E6F970094D077 /* BackgroundColor.swift in Sources */,
 				935056A02C9BBAC10094D077 /* fiveDayLook.swift in Sources */,
 				935056742C82A2D00094D077 /* SwiftUI_WeatherApp.swift in Sources */,
+				935056EE2C9FB5AD0094D077 /* WeatherModel.swift in Sources */,
+				935056C62C9E6E960094D077 /* DiffCitiesView.swift in Sources */,
+				935056EC2C9FB58B0094D077 /* WeatherViewModel.swift in Sources */,
 				935056822C8A80770094D077 /* WeatherButton.swift in Sources */,
+				935056EA2C9FB5640094D077 /* WeatherService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
