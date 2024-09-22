@@ -9,7 +9,7 @@ import Foundation
 import Combine
 
 private enum APIKEY {
-    static let key = "b7ebd0d23aa820c7a231e18a6bfed5d7" // Enter your API KEY here
+    static let key = "" // Enter your API KEY here
 }
 
 class WeatherService {
